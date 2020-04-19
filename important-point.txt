@@ -4,4 +4,5 @@ git push -u origin master
 deploye your pages on GIT HUB By Just Command
 
 ng add angular-cli-ghpages 
-ng deploy --base-href=/the-repositoryname/
+ng build --prod --base-href https://username.github.io/repoName/
+ngh --no-silent --dir=dist/folderName
