@@ -1,0 +1,7 @@
+git remote add origin https://github.com/username/repositoryname.git
+git push -u origin master  
+
+deploye your pages on GIT HUB By Just Command
+
+ng add angular-cli-ghpages 
+ng deploy --base-href=/the-repositoryname/
